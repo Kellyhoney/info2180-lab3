@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const squares = document.querySelectorAll("#board");
+    const squares = document.querySelectorAll("#board div");
     const gameState = Array(9).fill(null);
     let activePlayer = "X";
     const statusDiv = document.getElementById("status");
